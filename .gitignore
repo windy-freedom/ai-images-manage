@@ -1,0 +1,52 @@
+.venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# API keys and configuration
+config.json
+api_key.txt
+*.key
+
+# Test images and temporary files
+pics/*/
+!pics/.gitkeep
+
+# MCP and other config files
+mcp-config.json
+**/node_modules/
+*.log
+MCP-summary/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
